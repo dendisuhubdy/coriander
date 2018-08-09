@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export CLANG_HOME=$1
+export CLANG_HOME=/usr/local/opt/llvm
 # echo CLANG_HOME ${CLANG_HOME}
 # LIBS=$(${CLANG_HOME}/bin/llvm-config --libnames core | tr -d '\n')
 LIBS=$(${CLANG_HOME}/bin/llvm-config --libnames all | tr -d '\n')

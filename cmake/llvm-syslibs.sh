@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-export CLANG_HOME=$1
+export CLANG_HOME=/usr/local/opt/llvm
 
 
 if (($(cat /etc/*-release | grep -ce 'arch') > 0)); then
